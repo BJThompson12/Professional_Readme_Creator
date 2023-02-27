@@ -8,34 +8,74 @@ const generateReadMe = require('./utils/generateMarkdown')
 const questions = [
   {
     type: 'input',
-    message: 'What is the title of your project?',
     name: 'title',
-  },
-  {
+    message: 'What is the name of your project?',
+},
+{
     type: 'input',
-    message: 'Provide a short description explaining the whatm why and how of your porject.',
     name: 'description',
-  },
+    message: 'Enter a description of the project.',
+},
+{
+    type :'input',
+    name: 'installation',
+    message: 'How was the project created/installed?',
+},
+{
+    type: 'input',
+    name: 'usage',
+    message: 'How does the application work?',
+},
+{
+    type: 'checkbox',
+    name: 'license',
+    message: 'Please choose a license.',
+    choices: ['MIT', 'None'],
+},
+{
+    type: 'input',
+    name: 'contributing',
+    message: 'List contributing info here.',
+},
+{
+    type: 'input',
+    name: 'tests',
+    message: 'Would you like to include tests for your application?',
+},
+{
+    type: 'input',
+    name: 'github',
+    message: 'Enter your GitHub profile link.',
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'Enter your email address.',
+}
+
 ];
 
 console.log('index running');
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(answers) {
+  const readMe = generateReadMe(answers)
+  fs.writeFile('README.md', readMe, (err) =>{
+    if(err){
+      console.log('Error Found Cound Not Save');
+    } else {
+      console.log('Success!!');
+    }
+  })
+}
 
 // TODO: Create a function to initialize app
 function init() {
-  return inquirer.prompt(questions)
+   inquirer.prompt(questions)
     .then((answers) =>{
         console.log(answers);
-        const readMe = generateReadMe(answers)
-        console.log(readMe);
-        fs.writeFile('README.md', readMe, (err) =>{
-          if(err){
-            console.log('Error Found Cound Not Save');
-          } else {
-            console.log('Success!!');
-          }
-        })
+       writeToFile(answers)
+        //const readMe = generateReadMe(answers)
+        //console.log(readMe);
        // return(answers)
     })
     .catch((error) => {
