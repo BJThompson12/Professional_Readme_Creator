@@ -14,15 +14,34 @@ const questions = [
   {
     type: 'input',
     message: 'Provide a short description explaining the whatm why and how of your porject.',
-    name: 'descriptin',
+    name: 'description',
   },
 ];
 
+console.log('index running');
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  return inquirer.prompt(questions)
+    .then((answers) =>{
+        console.log(answers);
+        const readMe = generateReadMe(answers)
+        console.log(readMe);
+        fs.writeFile('README.md', readMe, (err) =>{
+          if(err){
+            console.log('Error Found Cound Not Save');
+          } else {
+            console.log('Success!!');
+          }
+        })
+       // return(answers)
+    })
+    .catch((error) => {
+      console.log(error);
+    })
+}
 
 // Function call to initialize app
 init();
