@@ -1,24 +1,24 @@
 
-  # sdfb
+  # Fantastic Four
   ## 📋 Description
-  dfb
+  New super hero forum
   ## 🗄️  Table of Contents
-  [Installation](#Installation)
+  [Installation](#Installation)  
   [Usage](#Usage)
   [License](#License)
-  [How To Contribute](#HowToContribute)
-  [Tests](#Tests)
-  [Contact Me](#ContactMe)
+  [How To Contribute](#How-To-Contribute)
+  [Tests](#🧮-Tests)
+  [Contact Me](#Contact-Me)
+
   ## 🛠️ Installation
-  dfb
+  node js ion the terminal
   ## 🖥️ Usage
-  dsfb
+  you run it in the terminal to generate a READme
   ## 🔐  License
-  
   ## 📝 How To Contribute
-  dfb
+  N/A
   ## 🧮 Tests
-  dfb
-  ## 📞  Contact Me
-  [GitHub](dxfb)
-  [Email](dfb)
+  N/A
+  ##  Contact Me
+  [GitHub](github.com/bjthompson12/)
+  [Email](brandonjoel.thompson@gmail.com)

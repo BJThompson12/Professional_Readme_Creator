@@ -22,6 +22,7 @@ function generateMarkdown(data) {
   [License](#License)
   [How To Contribute](#HowToContribute)
   [Tests](#Tests)
+  [Questions](#Questions)
   [Contact Me](#ContactMe)
   ## 🛠️ Installation
   ${data.installation}
@@ -29,12 +30,13 @@ function generateMarkdown(data) {
   ${data.usage}
   ## 🔐  License
   ${data.license}
-  ## 📝 How To Contribute
+  ## 📝 Contributing
   ${data.contributing}
   ## 🧮 Tests
   ${data.tests}
+  ## ❓ Questions
   ## 📞  Contact Me
-  [GitHub](${data.github})
+  [GitHub](github.com/${data.github}/)
   [Email](${data.email})
 `;
 }
