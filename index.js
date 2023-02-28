@@ -27,10 +27,10 @@ const questions = [
     message: 'Describe the use of your application.',
 },
 {
-    type: 'checkbox',
+    type: 'list',
     name: 'license',
     message: 'Please choose a license.',
-    choices: ['Apache License 2.0', 'GNU General Public License v3.0',  'MIT License', 'BSD 2-Clause "Simplified" License', 'Boost Software License 1.0', 'Ecplise Public License 2.0', 'Mozilla Public License 2.0', 'The Unicense', 'None'],
+    choices: ['Apache', 'IBM', 'ISC', 'MIT', 'Mozilla', 'The Unicense', 'None'],
 },
 {
     type: 'input',
@@ -60,7 +60,6 @@ const questions = [
 
 ];
 
-console.log('index running');
 // TODO: Create a function to write README file
 function writeToFile(answers) {
   const readMe = generateReadMe(answers)
@@ -79,9 +78,6 @@ function init() {
     .then((answers) =>{
         console.log(answers);
        writeToFile(answers)
-        //const readMe = generateReadMe(answers)
-        //console.log(readMe);
-       // return(answers)
     })
     .catch((error) => {
       console.log(error);
@@ -90,27 +86,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-/*
-inquirer
-.prompt([
-  {
-      type: 'input',
-      message: 'What is your user name?',
-      name: 'username',
-    },
-    {
-      type: 'input',
-      message: 'What is your languages do you know?',
-      name: 'language',
-    },
-    {
-      type: 'input',
-      message: 'What is your preferred method of communication?',
-      name: 'method',
-    },
-  ])
-  .then((response) =>
-    console.log(response.username, response.language, response.method)
-  );
-*/
