@@ -24,20 +24,19 @@ function generateMarkdown(data) {
   [Tests](#Tests)
   [Questions](#Questions)
   [Contact Me](#ContactMe)
-  ## 🛠️ Installation
+  ## Installation 🛠️ 
   ${data.installation}
-  ## 🖥️ Usage
+  ## Usage 🖥️ 
   ${data.usage}
-  ## 🔐  License
+  ## License 🔐  
   ${data.license}
-  ## 📝 Contributing
+  ## Contributing 📝 
   ${data.contributing}
-  ## 🧮 Tests
+  ## Tests 🧮
   ${data.tests}
-  ## ❓ Questions
-  ## 📞  Contact Me
-  [GitHub](github.com/${data.github}/)
-  [Email](${data.email})
+  ## Questions ❓
+  [GitHub Profile](github.com/${data.github}/)
+  I can be reached at ${data.email} for any questions.
 `;
 }
 

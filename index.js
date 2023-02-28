@@ -9,7 +9,7 @@ const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'What is the name of your project?',
+    message: 'What is your Project Title?',
 },
 {
     type: 'input',
@@ -19,28 +19,33 @@ const questions = [
 {
     type :'input',
     name: 'installation',
-    message: 'How was the project created/installed?',
+    message: 'What are the installation instructions for your application?',
 },
 {
     type: 'input',
     name: 'usage',
-    message: 'How does the application work?',
+    message: 'Describe the use of your application.',
 },
 {
     type: 'checkbox',
     name: 'license',
     message: 'Please choose a license.',
-    choices: ['MIT', 'None'],
+    choices: ['Apache License 2.0', 'GNU General Public License v3.0',  'MIT License', 'BSD 2-Clause "Simplified" License', 'Boost Software License 1.0', 'Ecplise Public License 2.0', 'Mozilla Public License 2.0', 'The Unicense', 'None'],
 },
 {
     type: 'input',
     name: 'contributing',
-    message: 'List contributing info here.',
+    message: 'How can users contribute to your application?',
 },
 {
     type: 'input',
     name: 'tests',
     message: 'Would you like to include tests for your application?',
+},
+{
+  type: 'input',
+  name: 'github',
+  message: 'Enter your GitHub profile link.',
 },
 {
     type: 'input',
