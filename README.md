@@ -7,7 +7,7 @@
   [Usage](#Usage)
   [License](#License)
   [How To Contribute](#How-To-Contribute)
-  [Tests](#🧮-Tests)
+  [Tests](#Tests)
   [Contact Me](#Contact-Me)
 
   ## 🛠️ Installation
@@ -17,7 +17,7 @@
   ## 🔐  License
   ## 📝 How To Contribute
   N/A
-  ## 🧮 Tests
+  ## Tests
   N/A
   ##  Contact Me
   [GitHub](github.com/bjthompson12/)
