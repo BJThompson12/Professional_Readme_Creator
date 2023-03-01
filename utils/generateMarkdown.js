@@ -359,7 +359,8 @@ function generateMarkdown(data) {
   ## Usage 🖥️ 
   ${data.usage}
   ## License 🔐  
-  [${data.license}](${link})\
+  [${data.license}](${link})
+  <br>
   ${section}
   ## Contributing 📝 
   ${data.contributing}

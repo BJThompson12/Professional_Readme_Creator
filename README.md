@@ -1,8 +1,8 @@
 
   [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-  # README Generator
+  # Avengers
   ## Description 📋 
-  The README generator will be used to generate a high quality README for a repository. 
+  An application to assemble all of the avengers
   ## Table of Contents 🗄️ 
  - [Installation](#Installation)
  - [Usage](#Usage)
@@ -12,20 +12,20 @@
  - [Questions](#Questions)
  - [Contact Me](#ContactMe)
   ## Installation 🛠️ 
-  To install you must install inquirer 8.2.4 via npm as well as clonign the repo. 
+  Clone the repo and then run in the terminal of the repo directory.
   ## Usage 🖥️ 
-  The applicaiton is to be used to create a README for a repository via node JS.
+  The applicaiton will be used to reach out to all of the Avengers to Assemble in order to save the world.
   ## License 🔐  
-  [MIT](https://opensource.org/license/mit/)\
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  [MIT](https://opensource.org/license/mit/) 
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
       The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
       
       THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   ## Contributing 📝 
-  USer can contribute by cloning the repo and pushes any changes. All Changes must be approved before merging. 
+  Users can close the repo and make changes with a PR. PR's must be approved before merging. 
   ## Tests 🧮
-  Testing is done via the termainl with promis checks. Further tests can be added as the application grows. 
+  No tests are needed.
   ## Questions ❓
-  [GitHub Profile](github.com/BJThompson/)\
-  I can be reached at brandonjoel.thompson@gmail.com for any questions.
+  [GitHub Profile](github.com/bjthompson/)  
+   I can be reached at brandonjoel.thompson@gmail.com for any questions.
