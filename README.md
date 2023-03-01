@@ -1,8 +1,8 @@
 
   [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-  # Avengers
+  # Professional ReadMe Creator
   ## Description 📋 
-  An application to assemble all of the avengers
+  An application to create a readme for your repo within your terminal. 
   ## Table of Contents 🗄️ 
  - [Installation](#Installation)
  - [Usage](#Usage)
@@ -12,16 +12,15 @@
  - [Questions](#Questions)
  - [Contact Me](#ContactMe)
   ## Installation 🛠️ 
-  Clone the repo and then run in the terminal of the repo directory.
+  To install the Application, do the following:
+  1. clone the repo
+  2. go to the repo directory in your terminal
+  3. run node ondex
   ## Usage 🖥️ 
-  The applicaiton will be used to reach out to all of the Avengers to Assemble in order to save the world.
+  This application will be used to create a README for your application.
+  Uses are to run node index from their terminal within the repo root folder. 
+  Once the command is input, then the user must answer the proceeding questions. 
   ## License 🔐  
-  [MIT](https://opensource.org/license/mit/) 
-   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-      
-      THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   ## Contributing 📝 
   Users can close the repo and make changes with a PR. PR's must be approved before merging. 
   ## Tests 🧮
