@@ -331,7 +331,7 @@ function renderLicenseSection(license) {
       For more information, please refer to <http://unlicense.org/>`
     case 'None':
       return ''
-      
+
     default: ''
   }
 }
@@ -359,14 +359,14 @@ function generateMarkdown(data) {
   ## Usage 🖥️ 
   ${data.usage}
   ## License 🔐  
-  [${data.license}](${link})
+  [${data.license}](${link})\
   ${section}
   ## Contributing 📝 
   ${data.contributing}
   ## Tests 🧮
   ${data.tests}
   ## Questions ❓
-  [GitHub Profile](github.com/${data.github}/)
+  [GitHub Profile](github.com/${data.github}/)\
   I can be reached at ${data.email} for any questions.
 `;
 }

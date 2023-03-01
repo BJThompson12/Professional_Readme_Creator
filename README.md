@@ -16,7 +16,7 @@
   ## Usage 🖥️ 
   The applicaiton is to be used to create a README for a repository via node JS.
   ## License 🔐  
-  [MIT](https://opensource.org/license/mit/)
+  [MIT](https://opensource.org/license/mit/)\
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
       The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -27,5 +27,5 @@
   ## Tests 🧮
   Testing is done via the termainl with promis checks. Further tests can be added as the application grows. 
   ## Questions ❓
-  [GitHub Profile](github.com/BJThompson/)
+  [GitHub Profile](github.com/BJThompson/)\
   I can be reached at brandonjoel.thompson@gmail.com for any questions.
