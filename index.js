@@ -63,7 +63,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(answers) {
   const readMe = generateReadMe(answers)
-  fs.writeFile('README.md', readMe, (err) =>{
+  fs.writeFile('README2.md', readMe, (err) =>{
     if(err){
       console.log('Error Found Cound Not Save');
     } else {
