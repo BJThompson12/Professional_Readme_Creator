@@ -17,6 +17,11 @@ const questions = [
     message: 'Enter a description of the project.',
 },
 {
+  type :'input',
+  name: 'framework',
+  message: 'What frameworks did you use for your application?',
+},
+{
     type :'input',
     name: 'installation',
     message: 'What are the installation instructions for your application?',
@@ -56,6 +61,11 @@ const questions = [
     type: 'input',
     name: 'email',
     message: 'Enter your email address.',
+},
+{
+  type: 'input',
+  name: 'acknowledgement',
+  message: 'Do you want to add any acknowledgements?',
 }
 
 ];

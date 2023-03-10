@@ -347,6 +347,7 @@ function generateMarkdown(data) {
   ## Description 📋 
   ${data.description}
   ## Table of Contents 🗄️ 
+ - [Frameworks](#Frameworks)
  - [Installation](#Installation)
  - [Usage](#Usage)
  - [License](#License)
@@ -354,6 +355,9 @@ function generateMarkdown(data) {
  - [Tests](#Tests)
  - [Questions](#Questions)
  - [Contact Me](#ContactMe)
+ - [Acknowledgement](#Acknowledgement)
+  ## Frameworks 🧰
+  ${data.framework}
   ## Installation 🛠️ 
   ${data.installation}
   ## Usage 🖥️ 
@@ -369,6 +373,8 @@ function generateMarkdown(data) {
   ## Questions ❓
   [GitHub Profile](github.com/${data.github}/)\
   I can be reached at ${data.email} for any questions.
+  ## Acknowledgements 🎉
+  ${data.acknowledgement}
 `;
 }
 
