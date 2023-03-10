@@ -32,3 +32,6 @@
   
   <a href="https://user-images.githubusercontent.com/98428608/222318323-7df8ad42-77ae-4085-a3f5-5b6d1ec09f07.png">Screenshot 2</a>
   
+  ## Video Recording 🎥
+   <a href="https://user-images.githubusercontent.com/98428608/224313388-64cf31a8-44fa-4575-8727-9c61f41c3f0e.mp4">Demo Video</a>
+  
